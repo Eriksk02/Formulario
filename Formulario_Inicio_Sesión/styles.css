@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("Fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+.container{
+   width: 500px;
+    border: 2px solid white;
+    border-radius: 2%;
+    padding: 30px 40px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 10px white;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 26pt;
+}
+.Inicio input{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 40px;
+}
+.Inicio input::placeholder{
+    color: white;
+    padding: 20px;
+}
+.Recordarme{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    margin-top: 15px;
+}
+.Recordarme input{
+    margin: 10px;
+}
+.Recordarme p{
+    color: white;
+    font-size: 12pt;
+}
+.Recordarme a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 12pt;
+}
+button{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color: black;
+    font-size: 12pt;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+}
+.Registro{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12pt;
+    color: white;
+}
+.Registro a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px;
+}
